@@ -1,0 +1,71 @@
+h1 {
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+}
+li {
+  font-size: 29;
+  color: black;
+  border-left: 3px solid blue;
+  padding: 3px;
+  width: max-content;
+  background-color: whitesmoke;
+}
+strong {
+  color: rgb(255, 0, 0);
+}
+body {
+  background-color: antiquewhite;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(ace.jpg);
+}
+h4 {
+  padding: 3px;
+  border-left: 5px forestgreen;
+  border-style: dotted;
+  margin: 2px;
+  width: fit-content;
+}
+.box {
+  background-color: lightgrey;
+  width: 200px;
+  border: 10px solid green;
+  padding: 30px;
+  margin: 5px;
+}
+div {
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: black;
+}
+.overview {
+  background-color: chocolate;
+}
+.main-content {
+  background-color: cornflowerblue;
+}
+.introduction {
+  background-color: darkgoldenrod;
+}
+.recommendation {
+  background-color: mediumspringgreen;
+}
+.container {
+  display: flex;
+  border: solid;
+  flex-direction: row;
+  background-color: gray;
+  justify-content: space-around;
+  width: auto;
+}
+.About,
+.Home,
+.Search {
+  background-color: aqua;
+}
+p {
+  text-align: left;
+}
